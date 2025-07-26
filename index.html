@@ -5,19 +5,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" media="screen and (max-width:1050px)" href="responsive.css">
+    <!-- <link rel="stylesheet" media="screen and (max-width:1050px)" href="responsive.css"> -->
     <title>Document</title>
 </head>
 
 <body>
     <nav>
-        <img src="image/Unmessify.svg" alt="Logo" style="width: 50px; height: 50px;">
-        <h1>Unmessify</h1>
+        <div class="logo">
+            <img src="image/Unmessify.svg" alt="Logo">
+            <h1>Unmessify</h1>
+        </div>
         <ul class="nav-links">
             <li>How It Works</li>
             <li>Promotions</li>
-            <li><select><option>Download</option></select></li>
-            <li><select><option>Resources</option></select></li>
+            <li><select>
+                    <option>Download</option>
+                </select></li>
+            <li><select>
+                    <option>Resources</option>
+                </select></li>
             <li>About Us</li>
             <li>Contact</li>
         </ul>
@@ -66,34 +72,32 @@
             <img src="image/Phone1.svg" alt="Phone">
         </div>
         <div class="phone-content">
-            <div>
-                <div class="phone-text">
-                    <img src="image/3Dspace.svg" alt="3D">
-                    <div>
-                        <h2>3D Spaces</h2>
-                        <p>Manage your storage spaces with 3D views that can be customized or using the available templates</p>
-                    </div>
+            <div class="phone-text">
+                <img src="image/3Dspace.svg" alt="3D">
+                <div>
+                    <h2>3D Spaces</h2>
+                    <p>Manage your storage spaces with 3D views that can be customized or using the available templates
+                    </p>
                 </div>
-                <div class="phone-text">
-                    <img src="image/track item.svg" alt="3D">
-                    <div>
-                        <h2>Track Item</h2>
-                        <p>Easily track the position of your item just by scanning the QR code label</p>
-                    </div>
+            </div>
+            <div class="phone-text">
+                <img src="image/track item.svg" alt="3D">
+                <div>
+                    <h2>Track Item</h2>
+                    <p>Easily track the position of your item just by scanning the QR code label</p>
                 </div>
-                <div class="phone-text">
-                    <img src="image/quick add.svg" alt="3D">
-                    <div>
-                        <h2>Quick Add</h2>
-                        <p>Quickly add zones, boxes and items to your storage unit</p>
-                    </div>
+            </div>
+            <div class="phone-text">
+                <img src="image/quick add.svg" alt="3D">
+                <div>
+                    <h2>Quick Add</h2>
+                    <p>Quickly add zones, boxes and items to your storage unit</p>
                 </div>
             </div>
         </div>
     </section>
     <section class="second-phone">
         <div class="phone-content">
-            <div>
                 <div class="phone-text">
                     <img src="image/export data.svg" alt="3D">
                     <div>
@@ -115,7 +119,6 @@
                         <p>Find storage unit services around you that you can rent at any time</p>
                     </div>
                 </div>
-            </div>
         </div>
         <div class="phone-image">
             <img src="image/Phone2.svg" alt="Phone">
@@ -123,8 +126,10 @@
     </section>
     <section class="discount-main">
         <div class="discount">
-            <img src="image/disc.svg" alt="Discount">
-            <div>
+            <div class="discount-image">
+                <img src="image/disc.svg" alt="Discount">
+            </div>
+            <div class="discount-content">
                 <h1>Get 30% subscription discount</h1>
                 <p>Get a subscription discount of 30% for new users who register using the application</p>
                 <button>Learn More</button>
