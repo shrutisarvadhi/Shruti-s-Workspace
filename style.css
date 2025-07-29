@@ -59,9 +59,9 @@ nav .menu {
     }
 }
 
-@media (max-width: 663px) {
+@media (max-width: 763px) {
     nav {
-        padding: 2rem 1rem;
+        padding: 2rem 2rem;
     }
 }
 
@@ -120,9 +120,9 @@ nav .menu {
     margin: 1rem 0rem;
 }
 
-@media (max-width: 663px) {
+@media (max-width: 763px) {
     .text-content {
-        padding: 1rem;
+        padding: 2rem;
         align-items: center;
         justify-content: center;
     }
